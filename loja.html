@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loja.css">
+</head>
+<body>
+    <main>
+        <div class="topo">
+            <div class="logoEsq">
+                <img src="30 Sem Título2 (1).png" alt=""  class="logo">
+            </div>
+
+            <div class="titulo">
+                <h2>Bomb Donut</h2>
+            </div>
+
+            <div class="logodireita">
+                <img src="30 Sem Título2 (2).png" alt=""  class="logo">
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="opiçao">
+            <h1 >Donut Delivery</h1>
+            
+            <div class="opiçaoesquerda">
+                <img src="donnut de morango.jpg" alt="" class="img" >
+                <h3>Donut de morango</h3>          
+                <button onclick="adicionaritem('Donut de morango')">Comprar</button>
+            </div>
+
+            <div class="opiçaoesquerda">
+                <img src="donut com recheio de chocolate branco.jpg" alt="" class="img" >
+                <h3>Donut com recheio de chocolate branco</h3>          
+                <button onclick="adicionaritem('Donut com recheio de chocolate branco')">Comprar</button>
+            </div>
+
+            <div class="opiçaodireita">
+                <img src="donut de chocolatee.jpg" alt="" class="img" >
+                <h3>Donut de chocolate</h3>          
+                <button onclick="adicionaritem('Donut de chocolate')">Comprar</button>
+            </div>
+
+            <div class="opiçaodireita">
+                <img src="donute de nutela.jpg" alt="" class="img" >
+                <h3>Donut com recheio de nutella</h3>          
+                <button onclick="adicionaritem('Donut com recheio de nutella')">Comprar</button>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+            <div class="lista">
+                <div class="listatopo">
+                    <h1 >lista</h1>
+                </div>
+                    <p>
+                        <output id="item">item</output>
+                    </p>
+                    
+             </div>
+             <button onclick="calcular()" class="botao">Calcular</button>
+    </main>
+</body>
+</html>
